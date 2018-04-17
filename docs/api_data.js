@@ -56,7 +56,7 @@ define({ "api": [
     "title": "",
     "name": "getUser",
     "group": "User",
-    "description": "<p>Возвращает список созданных юзеров</p>",
+    "description": "<p>Возвращает пользователя по id</p>",
     "header": {
       "fields": {
         "Authorization": [
@@ -112,7 +112,7 @@ define({ "api": [
     "title": "",
     "name": "getUsers",
     "group": "User",
-    "description": "<p>Возвращает список созданных юзеров</p>",
+    "description": "<p>Возвращает список пользователей</p>",
     "header": {
       "fields": {
         "Authorization": [

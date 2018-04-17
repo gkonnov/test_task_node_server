@@ -1,7 +1,7 @@
 {
-    "name": "inno_basic_server",
+    "name": "Test task node server",
     "version": "1.0.0",
-    "description": "inno basic server example",
-    "title": "inno basic server",
+    "description": "Fullstack JS / TS developer test task basic app",
+    "title": "Test task node server",
     "url" : ""
 }

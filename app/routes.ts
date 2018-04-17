@@ -37,7 +37,7 @@ router
      * @apiName getUsers
      * @apiGroup User
      *
-     * @apiDescription Возвращает список созданных юзеров
+     * @apiDescription Возвращает список пользователей
      *
      * * @apiHeader (Authorization) authorization Authorization value.
      * @apiHeaderExample Headers-Example:
@@ -51,7 +51,7 @@ router
      * @apiName getUser
      * @apiGroup User
      *
-     * @apiDescription Возвращает список созданных юзеров
+     * @apiDescription Возвращает пользователя по id
      *
      * @apiHeader (Authorization) authorization Authorization value.
      * @apiHeaderExample Headers-Example:
