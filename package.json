@@ -1,0 +1,27 @@
+{
+  "name": "inno-basic-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "lint": "tslint 'app/**/*.ts' --type-check --project tsconfig.json",
+    "doc": "apidoc -f app/routes.ts -o docs"
+  },
+  "author": "",
+  "license": "",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "@types/bcrypt": "^1.0.0",
+    "bcrypt": "^2.0.0",
+    "config": "^1.30.0",
+    "innots": "^1.1.5"
+  },
+  "devDependencies": {
+    "apidoc": "^0.17.5",
+    "tslint": "^5.7.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "typescript": "^2.6.2"
+  }
+}

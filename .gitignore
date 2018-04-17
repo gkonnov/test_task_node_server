@@ -1,0 +1,14 @@
+logs
+*.log
+npm-debug.log
+node_modules
+.npm
+.node_repl_history
+.idea
+*.bak
+build
+config/default.json
+config/production.json
+*.js
+*.js.map
+!/docs/**
