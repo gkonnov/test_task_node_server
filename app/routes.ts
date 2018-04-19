@@ -13,7 +13,7 @@ const authPublicRoute = config.get('appConfig.publicApiPrefix') + 'auth/';
 router
 
 /**
- * @api {post} /public/auth/login
+ * @api {post} /api/public/auth/login
  * @apiName login
  * @apiGroup Auth
  *
@@ -33,7 +33,7 @@ router
  */
     .post(authPublicRoute + 'login', auth.login)
     /**
-     * @api {get} /public/users/items
+     * @api {get} /api/users/items
      * @apiName getUsers
      * @apiGroup User
      *
@@ -47,7 +47,7 @@ router
      */
     .get(usersProtectedRoute + 'items', users.getItems)
     /**
-     * @api {get} /public/users/item
+     * @api {get} /api/users/item
      * @apiName getUser
      * @apiGroup User
      *

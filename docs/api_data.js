@@ -1,7 +1,7 @@
 define({ "api": [
   {
     "type": "post",
-    "url": "/public/auth/login",
+    "url": "/api/public/auth/login",
     "title": "",
     "name": "login",
     "group": "Auth",
@@ -52,7 +52,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "/public/users/item",
+    "url": "/api/users/item",
     "title": "",
     "name": "getUser",
     "group": "User",
@@ -108,7 +108,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "/public/users/items",
+    "url": "/api/users/items",
     "title": "",
     "name": "getUsers",
     "group": "User",
